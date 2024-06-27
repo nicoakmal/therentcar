@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header .logo {
+    flex: 1;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .contact-info {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .contact-info .support,
+header .contact-info .services {
+    text-align: left;
+}
+
+header .contact-info p {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro img {
+    max-width: 50%;
+    height: auto;
+}
+
+.intro-text {
+    max-width: 45%;
+}
+
+.intro-text h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car {
+    width: 45%;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #5A9CFF;
+}
+
+.car p{
+    font-size: 20px;
+    color: white;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+.footer-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.footer-info div {
+    margin: 10px 0;
+}
+.footer-info p {
+    margin: 5px 0;
+}
